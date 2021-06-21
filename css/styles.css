@@ -1,22 +1,38 @@
- body{
+        * {
+            padding: 0px;
+            margin: 0px;
+        }
+        body{
             font-family: 'Bebas Neue', cursive;
-            background-color: #b47565;
+            background-color: rgb(235, 243, 243);
         }
         .logo {
+            float: left;
             width: 70px;
             margin-right: auto;
             display: inline;
             border-radius: 89px;
+            padding: 8px 6px;
+        }
+        .logo-content {
+            float: left;
+            font-weight: 700;
+            font-size: 37px;
+            margin: -34px 13px;
+            padding: 51px 2px;
         }
 
         .navbar {
-            background-color: chocolate;
-            border-radius: 30px;
+            background: #042e4f;
+            height: 57px;
+            color: #fff;
+            font-size: 14px;
 
         }
 
         .navbar ul {
             overflow: auto;
+            padding: 0px 15rem;
         }
 
         .navbar li {
@@ -40,7 +56,9 @@
         .search {
             float: right;
             color: white;
-            padding: 12px 75px;
+            padding: 16px;
+            margin: 0px 75px;
+            background-color: #fff;
         }
 
         .navbar input {
