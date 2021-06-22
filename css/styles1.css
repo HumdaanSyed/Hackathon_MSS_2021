@@ -3,18 +3,25 @@
             background-color: rgb(235, 243, 243);
         }
 
-        #header-nav{ /* Affects complete navbar */
+        #complete-nav{ /* Affects complete navbar */
             background: #042e4f!important;
+        }
+
+        #nav-container{
+            position: relative;
         }
 
         .logo{ /* Virus image */
             width: 70px;
+            position: relative;
+            bottom: 2px;
             display: inline;
             border-radius: 89px;
-            padding: 8px 6px;
+            padding: 6px 5px;
         }
 
         .nav-brand{ /* COVINFO */
+            position: relative;
             font-size: 38px;
             color: white!important;
         }
@@ -32,6 +39,13 @@
 
         #search-bar{/* I think the name is self-explanatory */
             margin-left: 10px;
+        }
+
+        @media(max-width: 991px)
+        {
+            .nav-brand{
+               
+            }
         }
 
 
