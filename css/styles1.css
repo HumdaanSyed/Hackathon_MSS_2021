@@ -1,0 +1,39 @@
+    body{
+            font-family: 'Bebas Neue', cursive;
+            background-color: rgb(235, 243, 243);
+        }
+
+        #header-nav{
+            background: #042e4f!important;
+        }
+
+        .logo{
+            width: 70px;
+            display: inline;
+            border-radius: 89px;
+            padding: 8px 6px;
+        }
+
+        .nav-brand{
+            position: relative;
+            font-size: 38px;
+            color: white!important;
+        }
+
+        #nav-list{
+            text-align: center;
+        }
+
+        #nav-list a{
+            color: #fff;
+            font-size: 22px;
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+
+        #search-bar{
+            margin-left: 10px;
+        }
+
+
+
