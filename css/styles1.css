@@ -3,35 +3,34 @@
             background-color: rgb(235, 243, 243);
         }
 
-        #header-nav{
+        #header-nav{ /* Affects complete navbar */
             background: #042e4f!important;
         }
 
-        .logo{
+        .logo{ /* Virus image */
             width: 70px;
             display: inline;
             border-radius: 89px;
             padding: 8px 6px;
         }
 
-        .nav-brand{
-            position: relative;
+        .nav-brand{ /* COVINFO */
             font-size: 38px;
             color: white!important;
         }
 
         #nav-list{
-            text-align: center;
+            text-align: center;/* centers text in dropdown menu */
         }
 
-        #nav-list a{
+        #nav-list a{/* HOME STATISTICS MYTHS */
             color: #fff;
             font-size: 22px;
             margin-left: 5px;
             margin-right: 5px;
         }
 
-        #search-bar{
+        #search-bar{/* I think the name is self-explanatory */
             margin-left: 10px;
         }
 
