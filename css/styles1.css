@@ -7,10 +7,6 @@
             background: #042e4f!important;
         }
 
-        #nav-container{
-            position: relative;
-        }
-
         .logo{ /* Virus image */
             width: 70px;
             position: relative;
@@ -21,7 +17,8 @@
         }
 
         .nav-brand{ /* COVINFO */
-            position: relative;
+            text-align: left!important;
+            margin-right: auto;
             font-size: 38px;
             color: white!important;
         }
@@ -30,23 +27,21 @@
             text-align: center;/* centers text in dropdown menu */
         }
 
+        .nav-item a:hover{
+            background-color: #042e4f;
+            opacity: 30%;
+        }
+
         #nav-list a{/* HOME STATISTICS MYTHS */
             color: #fff;
-            font-size: 22px;
+            font-size: 20px;
             margin-left: 5px;
             margin-right: 5px;
         }
 
         #search-bar{/* I think the name is self-explanatory */
             margin-left: 10px;
+            margin-right: 10px;
         }
-
-        @media(max-width: 991px)
-        {
-            .nav-brand{
-               
-            }
-        }
-
 
 
