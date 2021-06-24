@@ -173,7 +173,7 @@ body{
         }
 
         div svg{
-            margin-right: 25px;
+            margin-right: 25px!important;
         }
 
         #comp-name{
