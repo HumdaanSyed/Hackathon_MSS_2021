@@ -3,6 +3,7 @@
             background-color: rgb(235, 243, 243);
         }
 
+        /* BEGIN NAVBAR */
         #complete-nav{ /* Affects complete navbar */
             background: #042e4f!important;
         }
@@ -44,4 +45,34 @@
             margin-right: 10px;
         }
 
+        /* END NAVBAR */
+
+
+        /* BEGIN FOOTER */
+        #foot-er{
+            margin-top: 50px;
+            background: #042e4f;
+            color: white;
+        }
+
+        #copyr{
+            color: #20c997!important;
+            font-size: 16px;
+        }
+
+        div svg{
+            margin-right: 25px;
+        }
+
+        #comp-name{
+            font-size: 60px;
+            margin-top: auto;
+            margin-bottom: auto!important;
+        }
+
+        .footer-content, h6{
+            font-size: 1.20em;
+        }
+
+        /* END FOOTER */
 
