@@ -91,10 +91,9 @@ body{
     }
 
       .wave{
-          position: absolute;
-          bottom: -49px;
+        position: absolute;
+          bottom: 98px;
           /* margin-top: -15.5rem; */
-          left: 0;
       }
       div svg{
           margin-right: 0px !important;
@@ -172,8 +171,8 @@ body{
             font-size: 16px;
         }
 
-        div svg{
-            margin-right: 25px!important;
+        div svg{/*icons*/
+            
         }
 
         #comp-name{
